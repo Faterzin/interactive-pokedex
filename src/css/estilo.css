@@ -90,27 +90,53 @@ main .cartao .tipo {
 }
 
 .grama {
-	background-color: #7ac74c;
+    background: rgb(8, 115, 4);
+    background: linear-gradient(90deg, rgba(8, 115, 4, 1) 0%, rgba(4, 182, 56, 1) 100%);
 }
 
 .veneno {
-	background-color: #df67ddfb;
+    background: rgb(137, 6, 228);
+    background: linear-gradient(90deg, rgba(137, 6, 228, 1) 0%, rgba(192, 101, 227, 1) 100%);
 }
 
 .fogo {
-	background-color: #ee8130;
+    background: rgb(238, 47, 3);
+    background: linear-gradient(90deg, rgba(238, 47, 3, 1) 0%, rgba(236, 93, 2, 1) 100%);
 }
 
 .agua {
-	background-color: #6390f0;
+    background: rgb(7, 7, 153);
+    background: linear-gradient(90deg, rgba(7, 7, 153, 1) 0%, rgba(19, 91, 215, 1) 100%);
 }
 
 .inseto {
-	background-color: #a6b91a;
+    background: rgb(123, 190, 0);
+    background: linear-gradient(90deg, rgba(123, 190, 0, 1) 0%, rgba(182, 231, 65, 1) 100%);
 }
 
-.voador{
-	background-color: aqua;
+.voador {
+    background: rgb(0, 153, 190);
+    background: linear-gradient(90deg, rgba(0, 153, 190, 1) 0%, rgba(65, 225, 231, 1) 100%);
+}
+
+.eletrico {
+    background: rgb(204, 183, 27);
+    background: linear-gradient(90deg, rgba(204, 183, 27, 1) 0%, rgba(228, 232, 72, 1) 100%);
+}
+
+.psico {
+    background: rgb(204, 27, 138);
+    background: linear-gradient(90deg, rgba(204, 27, 138, 1) 0%, rgba(232, 72, 222, 1) 100%);
+}
+
+.normal {
+    background: rgb(140, 122, 85);
+    background: linear-gradient(90deg, rgba(140, 122, 85, 1) 0%, rgba(153, 138, 60, 1) 100%);
+}
+
+.terra {
+    background: rgb(91, 42, 3);
+    background: linear-gradient(90deg, rgba(91, 42, 3, 1) 0%, rgba(161, 120, 15, 1) 100%);
 }
 
 
