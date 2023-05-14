@@ -86,6 +86,7 @@ main .cartao .tipo {
 .gif{
 	width: 300px;
 	height: 300px;
+	flex-wrap: wrap;
 }
 
 .grama {
