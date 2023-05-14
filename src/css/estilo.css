@@ -58,7 +58,7 @@ main {
 main .cartao .tipos {
 	display: flex;
 	gap: 15px;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	font-size: 50px;
 }
 
@@ -84,8 +84,8 @@ main .cartao .tipo {
 }
 
 .gif{
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	flex-wrap: wrap;
 }
 
@@ -96,6 +96,23 @@ main .cartao .tipo {
 .veneno {
 	background-color: #df67ddfb;
 }
+
+.fogo {
+	background-color: #ee8130;
+}
+
+.agua {
+	background-color: #6390f0;
+}
+
+.inseto {
+	background-color: #a6b91a;
+}
+
+.voador{
+	background-color: aqua;
+}
+
 
 .parte-de-cima{
 	display: flex;
