@@ -112,6 +112,7 @@ main .cartao .tipo {
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 25px;
+	flex-wrap: wrap;
 }
 
 .divisoria{
