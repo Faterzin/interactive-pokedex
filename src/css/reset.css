@@ -7,31 +7,3 @@
 ul{
     list-style: none;
 }
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #5e5b5bad;
-    padding: 11px;
-  }
-
-  .modo-escuro footer{
-    background-color: #212121ad;
-    color: #cfcfcf;
-  }
-  
-  footer h4,
-  footer p {
-    margin: 10px;
-  }
-  
-  footer .social-icons {
-    display: flex;
-    align-items: center;
-  }
-  
-  footer .social-icons a img{
-    width: 50px;
-    margin-left: 50px;
-  }
