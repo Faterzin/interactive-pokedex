@@ -2,12 +2,16 @@ body {
 	font-family: 'Poppins', sans-serif;
 	max-width: 1280px;
 	margin: 0 auto;
-	background-color: #5e5b5bad;
+	background-image: url("/interactive-pokedex/src/imagens/dia.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover;
 	color: #333333;
 }
 
 body.modo-escuro {
-	background-color: #212121;
+	background-image: url("/interactive-pokedex/src/imagens/noite.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover;
 	color: #d9d8d8;
 }
 
