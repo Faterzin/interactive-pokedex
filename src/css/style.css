@@ -62,10 +62,6 @@ main .cartao-pokemon {
 	transition: 0.2s ease-in-out;
 }
 
-main .cartao-pokemon:hover {
-	background-color: #96d9d6;
-}
-
 .modo-escuro .cartao-pokemon {
 	background-color: #a8a8a8;
 }
@@ -98,7 +94,8 @@ main .cartao-pokemon .tipo {
 	border-radius: 10px;
 }
 
-.grama {
+.grama,
+.cartao-pokemon:hover .grama {
     background: rgb(8, 115, 4);
     background: linear-gradient(90deg, rgba(8, 115, 4, 1) 0%, rgba(4, 182, 56, 1) 100%);
 }
@@ -108,17 +105,20 @@ main .cartao-pokemon .tipo {
     background: linear-gradient(90deg, rgba(137, 6, 228, 1) 0%, rgba(192, 101, 227, 1) 100%);
 }
 
-.fogo {
+.fogo,
+.cartao-pokemon:hover .fogo {
     background: rgb(238, 47, 3);
     background: linear-gradient(90deg, rgba(238, 47, 3, 1) 0%, rgba(236, 93, 2, 1) 100%);
 }
 
-.agua {
+.agua,
+.cartao-pokemon:hover .agua {
     background: rgb(7, 7, 153);
     background: linear-gradient(90deg, rgba(7, 7, 153, 1) 0%, rgba(19, 91, 215, 1) 100%);
 }
 
-.inseto {
+.inseto,
+.cartao-pokemon:hover .inseto {
     background: rgb(123, 190, 0);
     background: linear-gradient(90deg, rgba(123, 190, 0, 1) 0%, rgba(182, 231, 65, 1) 100%);
 }
