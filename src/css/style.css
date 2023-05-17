@@ -94,8 +94,27 @@ main .cartao-pokemon .tipo {
 	border-radius: 10px;
 }
 
-.grama,
-.cartao-pokemon:hover .grama {
+main .cartao-pokemong:hover {
+    background: rgb(8, 115, 4);
+    background: linear-gradient(90deg, rgba(8, 115, 4, 1) 0%, rgb(43, 226, 98) 100%);
+}
+
+main .cartao-pokemonf:hover {
+    background: rgb(238, 47, 3);
+    background: linear-gradient(90deg, rgba(238, 47, 3, 1) 0%, rgb(236, 144, 87) 100%);
+}
+
+main .cartao-pokemona:hover {
+    background: rgb(7, 7, 153);
+    background: linear-gradient(90deg, rgba(7, 7, 153, 1) 0%, rgb(32, 105, 231) 100%);
+}
+
+main .cartao-pokemoni:hover {
+    background: rgb(123, 190, 0);
+    background: linear-gradient(90deg, rgba(123, 190, 0, 1) 0%, rgb(197, 236, 107) 100%);
+}
+
+.grama {
     background: rgb(8, 115, 4);
     background: linear-gradient(90deg, rgba(8, 115, 4, 1) 0%, rgba(4, 182, 56, 1) 100%);
 }
@@ -105,20 +124,17 @@ main .cartao-pokemon .tipo {
     background: linear-gradient(90deg, rgba(137, 6, 228, 1) 0%, rgba(192, 101, 227, 1) 100%);
 }
 
-.fogo,
-.cartao-pokemon:hover .fogo {
+.fogo {
     background: rgb(238, 47, 3);
     background: linear-gradient(90deg, rgba(238, 47, 3, 1) 0%, rgba(236, 93, 2, 1) 100%);
 }
 
-.agua,
-.cartao-pokemon:hover .agua {
+.agua {
     background: rgb(7, 7, 153);
     background: linear-gradient(90deg, rgba(7, 7, 153, 1) 0%, rgba(19, 91, 215, 1) 100%);
 }
 
-.inseto,
-.cartao-pokemon:hover .inseto {
+.inseto {
     background: rgb(123, 190, 0);
     background: linear-gradient(90deg, rgba(123, 190, 0, 1) 0%, rgba(182, 231, 65, 1) 100%);
 }
