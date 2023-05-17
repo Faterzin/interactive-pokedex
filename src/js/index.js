@@ -8,8 +8,8 @@ botaoAlterarTema.addEventListener("click", () => {
   body.classList.toggle("modo-escuro");
 
   if (modoEscuroEstaAtivo) {
-    imagemBotaoTrocaDeTema.setAttribute("src", "/interactive-pokedex/src/imagens/sun.png");
-  } else {
     imagemBotaoTrocaDeTema.setAttribute("src", "/interactive-pokedex/src/imagens/moon.png");
+  } else {
+    imagemBotaoTrocaDeTema.setAttribute("src", "/interactive-pokedex/src/imagens/sun.png");
   }
 });

@@ -2,17 +2,16 @@ body {
 	font-family: 'Poppins', sans-serif;
 	max-width: 1280px;
 	margin: 0 auto;
-	background-image: url("/interactive-pokedex/src/imagens/dia.jpg");
+	background-image: url("/interactive-pokedex/src/imagens/noite.jpg");
 	background-repeat: no-repeat; 
 	background-size: cover;
 	color: #333333;
 }
 
 body.modo-escuro {
-	background-image: url("/interactive-pokedex/src/imagens/noite.jpg");
+	background-image: url("/interactive-pokedex/src/imagens/dia.jpg");
 	background-repeat: no-repeat; 
 	background-size: cover;
-	color: #d9d8d8;
 }
 
 header {
@@ -40,7 +39,7 @@ main .cartao:hover {
 }
 
 main .cartao {
-	background-color: #d8e3ec;
+	background-color: #a8a8a8;
 	padding: 15px;
 	display: flex;
 	flex-direction: column;
@@ -52,7 +51,7 @@ main .cartao {
 }
 
 .modo-escuro .cartao {
-	background-color: #a8a8a8;
+	background-color: #d8e3ec;
 }
 
 main {
@@ -80,11 +79,6 @@ main .cartao .tipo {
 .paragrafo{
 	font-size: 30px;
 	color: #212121;
-}
-
-.modo-escuro .paragrafo{
-	font-size: 30px;
-	color: #5d5959;
 }
 
 .gif{
