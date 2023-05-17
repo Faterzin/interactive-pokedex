@@ -4,4 +4,4 @@ Fiz uma Pokedex com a ajuda do @devemdobro e fiz algumas alterações, tomara qu
 
 Minha pokedex: https://faterzin.github.io/interactive-pokedex/
 
-Pokedex do dev em dobro (Feita em aula): https://github.com/devemdobro/projeto-listagem-pokemon
+Pokedex do dev em dobro (Feita em aula): https://devemdobro.github.io/projeto-listagem-pokemon/
